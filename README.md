@@ -5,8 +5,16 @@
 QT-creator기반의 gui형태로 구현한 테트리스 게임을 진행하며
 Achro-em기기에 내장된 다양한 모듈들(LCD, Camera, led, 등등)을 활용합니다.
 
+테트리스의 로그인,게임 시작, 종료 시 화면은 각각 다음과 같습니다.
+- 로그인
 
-<h3>Achro-em kit</h3>
+<img src="https://user-images.githubusercontent.com/67903177/128677143-23cf2d8a-aa08-4ee7-9574-58dacf9efa4e.png" width="400" height
+="400"/>
+
+<img src="https://user-images.githubusercontent.com/67903177/128678028-e66c7f92-8c14-43f8-934a-7a2e1412f188.png" width="800" height="450"/>
+
+
+<h2><br>하드웨어: Achro-em kit</h3>
 <img src="https://user-images.githubusercontent.com/67903177/128670056-4fb961a8-ca61-487c-ad7c-ecac8d584b6e.png"
 
 Achro-em은 Hunins가 개발한 rpi기반의 임베디드 시스템 실습 및 교육용 키트입니다.
