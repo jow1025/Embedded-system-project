@@ -32,7 +32,7 @@ http://www.huins.com/new/sub/goods_sublist.php?ca_id=7050
  - H/W: Achro-em kit
  - OS: Raspbian, Ubuntu
  - Tool: QT Creator, Samba(파일 공유)
-  
+ - Language: C(Ubuntu), C++(QT Programming), Python3(Opencv)
 <br><h3>2. 구현 내용</b></h3>
  * 얼굴 인식: Opencv의 Haar Cascade Classifier알고리즘
  
