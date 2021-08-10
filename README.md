@@ -5,6 +5,10 @@
 QT-creator기반의 gui형태로 구현한 테트리스 게임을 진행하며
 Achro-em기기에 내장된 다양한 모듈들(LCD, Camera, led, 등등)을 활용합니다.
 
+카메라에 얼굴을 비추면 실시간으로 관리자 얼굴을 인식하여 초록색 bounding box에 이름과 인식률이 나타나고
+다른 사람들의경우 빨간 bounding box가 보여지며 인증처리를 실패하게됩니다.
+100개 이하의 사진 데이터로도 80%넘는 인식 성공률을 보였기에 많은 학습은 시키지않았습니다.
+
 테트리스의 로그인,게임 시작, 종료 시 화면은 각각 다음과 같습니다.
 - 로그인
 
@@ -33,7 +37,8 @@ http://www.huins.com/new/sub/goods_sublist.php?ca_id=7050
  - OS: Raspbian, Ubuntu
  - Tool: QT Creator, Samba(파일 공유)
  - Language: C(Ubuntu), C++(QT Programming), Python3(Opencv)
-<br><h3>2. 구현 내용</b></h3>
+ 
+<br><h3> 2. 구현 내용</h3>
  * 얼굴 인식: Opencv의 Haar Cascade Classifier알고리즘
  
     + 인식할 얼굴의 data set만들기
