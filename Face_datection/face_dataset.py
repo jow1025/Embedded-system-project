@@ -8,6 +8,11 @@ cam.set(4, 640)
 
 #opencv에서 얼굴인식을 위해 제공하는 학습된 xml데이터(깃허브에서 다운)
 face_detector = cv2.CascadeClassifier('haarcascades/haarcascade_frontalface_default.xml')
+
+#이 face_id를 다르게 입력하여 다른 사람의 사진 데이터 구분 가능
+#최초 1을 입력하면 user1.jpg~30.jpg가 생기고, 또 코드실행해서 1입력하면 user31.jpg~60.jpg 저장
+#1입력후 코드 재실행하여 2를 입력하면 user2.1.jpg ~ 2.30.jpg 생성. (즉 숫자를 구분하여 다른 사람얼굴 분류할 때 이용가능)
+
 face_id = input('\n enter user id end press <return> ==>  ')
 print("\n [INFO] Initializing face capture. Look the camera and wait ...")
 
