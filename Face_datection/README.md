@@ -1,9 +1,10 @@
 # 코드 설명
 
 사전 준비: 아래 링크에서 haarcascade_frontalface_default.xml파일을 다운 받아주세요.
-https://github.com/opencv/opencv/tree/master/data/haarcascades
+https://github.com/opencv/opencv/tree/master/data/haarcascade
+디렉토리의 위치는 본인의 환경에 맞게 수정해야합니다.
 
-해당 파일은 opencv홈페이지에서 제공하는 object detection을 위한 이미지 패턴을 학습시켜놓은 xml파일입니다.
+링크에서 다운받은 파일은 opencv홈페이지에서 제공하는 object detection을 위한 이미지 패턴을 학습시켜놓은 xml파일입니다.
 우리는 얼굴 인식을 위해 이 파일을 사용합니다.
 
 + 실행 순서
